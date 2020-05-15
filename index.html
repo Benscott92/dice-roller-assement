@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./assets/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lets Roll</title>
 </head>
 <body>
-    <input type="text" class="dice-amount" placeholder="How Many Dice?">
-    <button class="roll">Roll</button>
-    <div class="dice-roll-total"></div>
-
-
+    <h1>Lets Get Ready To Roll!!! </h1>
+    <header>
+        <input type="number" class="sides" placeholder="How Many Sides">
+        <input type="number" class="dice-amount" placeholder="How Many Dice?">
+        <button class="roll">Roll</button>
+    </header>
+        <div class="dice-roll-total"></div>
+    <div class="total">
+        <button class="reveal-rolls">Show All Rolls</button>
+    </div>
+    <div class="list">
+        <ol class="all-rolls">
+            
+        </ol>
+    </div>
+    <div class="reset">
+        <button class="resetbutton">Reset</button>
+    </div>
     <script src="./assets/main.js"></script>
 </body>
 </html>

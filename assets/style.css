@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+input{
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+}
+.dice-amount, .sides{
+    font-size: 20px;
+    width: 20%;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+}
+
+.dice-roll-total{
+    font-size: 45px;
+    text-align: center;
+}
+
+.dice{
+    font-size: 45px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 51px;
+    margin: 5px;
+    text-align: center;
+    padding: auto;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 40px;
+}
